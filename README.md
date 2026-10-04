@@ -118,7 +118,9 @@ Languages:
  - c
  - go
  - asm (on avr)
-
+OSes:
+ - GNU linux (especially NixOS)
+ - macOS
 ```
 
 > To anyone who reached this far, I wish you the best! And I would also give a special thanks to the open-source community and to a lot of people who are much more talented than me who led me into being able to do so much !  
