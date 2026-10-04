@@ -74,8 +74,8 @@ init:
 end:
 	rjmp end                    ; End loop, prevent UB
 led_on:
-	sbi _SFR_IO_ADDR(DDRB), 5   ; Set bit 5 in data direction reg
-	sbi _SFR_IO_ADDR(DDRB), 5   ; Set bit 5 in port register
+	sbi _SFR_IO_ADDR(DDRB), DDB5; Set bit 5 in data direction reg
+	sbi _SFR_IO_ADDR(DDRB), PB5 ; Set bit 5 in port register
 	ret                         ; Set instruction pointer to the address on stack from which subroutine has been called 
 ```
 And that's pretty much all I got for now
