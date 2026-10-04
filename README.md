@@ -1,68 +1,38 @@
 <div align="center">	
-	
-<h1>Hi ! 🌸 So want to know me a bit more ?</h1>
-<img width="1470" height="956" alt="Screenshot 2025-11-13 at 18 14 15" src="https://github.com/user-attachments/assets/f310f5b2-3ba2-4bc0-a9d5-e4d0f45a7518" />
-
-> → _The future \*might be\* declarative._
+<img width="3839" height="1200" alt="Cherry_Blossom copy" src="https://github.com/user-attachments/assets/8c1e3fdd-ea4b-4964-b88c-32568e1f83dd" />
+<h1>Hi, I'm Oxeylie 🌸 <I>(fka Kcraft⁰⁵⁹)</i></h1>
 
 </div>
 
-## Me
+First, I wanted to thank you for taking the time to look a bit at my profile, I'm sure it's quite uncommon ^^'…
 
-So, as I said, **Hi there !!** 👋<br>
-But let's start with a few formalities first:
-
-```yaml
-# Few elements about me 
-Name: Camille
-Pronouns: they/them # TODO: debug genderd.service
-Nationality: 🇫🇷
-Age: 17
-Languages: # I don't master any of those 
- - C 	  # I'm trying to focus on low-level compiled languages for now
- - Nix    # Mainly for env config & dev shells
- - PHP    # (alongside other front-end languages like JS)
- - Bash / Zsh
- - Python # I don't use it that much anymore
- - Go     # For an upcoming version of my website
- - ASM    # (On avr)
-```
-> Yeah… on the moment I thought this would look good… Yeah strange profile for a strange person…
-
-Anyway, I'm Camille, I also go by `Oxeylie` (formerly `Kcraft059`) online, I'm a french high-school student who codes in their free time. My english isn't perfect 😅, but I love practicing it as much as I love talking to people.<br>
-I’m interested in pretty much every tech domain, though lately I started to specifically dive into <b>low-level programming</b>. I use macOS (because it's UNIX-like - tho let's be honest it's extremely restrictive[^1]) in combination with Nix-Darwin to fully configure my system in a reproducible way.
-
-## My Journey
+# Bio:
+If anything at all I'm just a curious person who loves computers and science stuff ^^!
+I'd rather be called using `they/them` but it's not a big deal if you're using smth else.  
+I'm currently studying with the goal of maybe becoming an engineer (if lucky enough), so I'm quite busy most of the time.  
+Not absolutely opposed to the use of AI, tho only for ethical purpose it is to say, I **don't** vibe code.
 
 <details>
-<summary>But let's start at the beginning of my journey, shall we ?</summary>
-<br>
-It started relatively simple, an old piece of junk: my <b>Late 2012 MacMini</b>.<br>
-This piece of tech gave me the passion I have today for IT. It started with a few teardowns & rebuild, which made me want to experiment more like forcing macOS suppport through <b>OCLP</b>, installation of <b>Ubuntu</b> on dual boot, all those which helped me understand how computers worked more in depth !<br>
-Tho it was not without mistakes… I did screw-up my macOS instances a few time 🥲, and made more reinstalls than any sane person should do 🫠<br>
-<br>
-This is where it took a turn when I discovered Nix, a reproducible & declarative package manager (this seemed perfect given how often I reinstalled macos).<br>
-I made a config… and soon realised I fell into a rabbit hole as I found myself digging into docs at 2am swearing at a scope bug because I did not pass an input… (true 'me' fashion tbh 🥰)
+<summary><i><b>Interests</b></i></summary><br>
+	
+I got told since I was young how curious I was… 
+So as the years went by and as I felt progressively more capable of dealing with complicated subjects, my interests for maths, physics, and IT grew along.
+Later this turned into my passion for IT and lately <b>low level programming</b>.
+To this very day I'm eager to learn in the subjects that interest me. <br>
+<i>(yeah… that means I did go through ≈600 pages of documentation on the atmega328p to try and understand the role of each of its registers "for fun" ;-;)</i><br>
+	
+While I don't claim to have anywhere near the knowledge of a real dev, during the years I had the opportunity to learn a few key concepts that helped me in my little projects ^^! 
+</details>
 
-```nix
-{pkgs, lib, ...} :
-{
-  service.readme = {
-    enable = true;
-    config.welcomeMsg = "Nix has a steep learning curve… "; # And at the time, the hardest thing I ever done was a for loop in bash
-  };
-}
-
-```
-
-After I made this config, I saw the potential I had in my hands, access to unlimited packages, and a growing interest for programming !<br>
-
-At some point after, I got the idea of making a <b>website</b>. At the time I only had a vague idea of what it consisted of... a server, a software to run the server ?<br>
-I made a few research, I already had the idea to install a headless NixOS version on my MacMini which I knew I'd soon replace with a new Mac Book Air. And so, I made a config in nix, I chose a <b>LEMP</b> stack and got to coding !<br>
-The months that followed were really interesting, I learned how to manage a server, how to use ssh etc… The next step being the website itself, I started to get into html, css, php & sql, at some point I even made a full framework for a user system in <b>OOP</b> !<br>
-
-Tho the frontend to those backend features… is… let's say it's still pending 🙄
-
+<details>
+<summary><i><b>Experience</b></i></summary><br>
+	
+The only real experience I've had was really only through my own researches, but  were quite varied.<br>
+	
+My first introduction to programming was really only a few bash scripts… but I quickly got the idea to learn a <i>real</I> language. So I decided to try and learn some python… at the beginning I did understand the language in itself… but had no idea how it really worked under the hood… But that didn't bother me at the time as I just got into programming ^^.<br>
+	
+Later the idea of making a website got me… my goal at first was to make it pretty… but I quickly understood that it wasn't really what motivated me. I wanted to some real programming, I wanted to try and do a bit of backend. I went as far as doing a somewhat functional user/group/policy object-oriented system with a database and all but… at some point I lost interest for the backend so it really only ended in: <br>
+	
 ```php
 <?php
   http_response_code(404);
@@ -70,9 +40,7 @@ Tho the frontend to those backend features… is… let's say it's still pending
 ?>
 ```
 
-Following this experience, I started to wonder if I could get into <b>low-level</b> programming like C... so I <b>tried</b> !<br>
-This helped me understand how things really worked under the hood ^^.<br>
-I then did a few libs (implementing dynamic arrays & hasmaps from scratch) where I implemented the concepts I found tricky in C, pointers, type size & mem alloc. (I'm quite proud of those ngl 😅 !)
+The real reason for the loss of interest is because I started to wonder if I could get into <b>low-level</b> programming like C to understand how things really worked under the hood ^^.<br>
 
 ```c
 #include <stdio.h> // Import definitions for different libs
@@ -81,54 +49,85 @@ I then did a few libs (implementing dynamic arrays & hasmaps from scratch) where
 
 int main(int argc, char** argv) { // And this time I actually started to comment my code 
   char* string = malloc(sizeof(char) * 5); // Alloc mem on heap for string
-  memcpy(string,"Yeah", sizeof(char) * 5); // Copies mem from adress of "Yeah" to string, on 5 bytes
-
+  memcpy(string,"Yeah", sizeof(char) * 5); // Copy mem from adress of immediate "Yeah" to string, on 5 bytes
   printf("%s, after php, c did taste harder ^^'\n",string); // Print to stdout replacing %s which the string in string
-
-  free(string); // Free mem, make it usable again by any other part of the computer  
+  free(string); // Free mem
 }
 ```
 
-So yeah, not much in fact 😅, but I'm learning things and having fun doing so and this might be the most important thing to remenber !<br>
-As of today I'm really proud of how far I've gone and I realize everyday how much I still have to learn. But looking back at my knowledge from a year ago, I only am more confident that with time I'll improve my skills !
+From this point on I started to understand key concepts in how a computer worked with, data, computations etc… So I tried re-implementing some concepts by myself as a little challenge: dynamic arrays, hashmaps & quick-sort. <br>
+After that, I knew I wanted to go deeper… So I tried my hand at assembly on a fairly simple but interesting architecture, `avr` (arch most Arduinos runs on). <br>
+As usual I wanted to try and re-implement as best as I could some basic systems that make programming what it is nowadays, so I tried making a memory allocator from scratch in asm. Alongside this I learnt how to interact with IO registers to create pulses, signals based on clocks etc… 
 
-> I know this is a bit unusual for a Github Profile, but I mean, my profile, my decisions ¯\\\_(ツ)\_/¯
+```asm
+#include <avr/io.h>
+.section .vectors             ; Interrupt vector table
+.org 0x0000
+	jmp init                    ; On reset jump to init
+.section .text
+init:
+	ldi r16, lo8(RAMEND)        ; Init Stack pointer
+	out _SFR_IO_ADDR(SPL), r16
+	ldi r16, hi8(RAMEND)
+	out _SFR_IO_ADDR(SPH), r16
+	rcall led_on                ; Call led_on subroutine
+end:
+	rjmp end                    ; End loop, prevent UB
+led_on:
+	sbi _SFR_IO_ADDR(DDRB), 5   ; Set bit 5 in data direction reg
+	sbi _SFR_IO_ADDR(DDRB), 5   ; Set bit 5 in port register
+	ret                         ; Set instruction pointer to the address on stack from which subroutine has been called 
+```
+And that's pretty much all I got for now
 
+<b><i>Sidenote on nix:</i></b>
+
+I also use nix, not as a general purpose language but rather for its most frequent use, as a package manager. I got into nix, for a really dumb reason, I needed a reproducible environment because I kept breaking my OS by experimenting at the point where a reinstall was quicker. So I got into nix pretty early in all this but it gave me the opportunity to test pretty much any language & any package thanks to the sheer amount of packages it offers.<br>
+This convenience had a cost tho since…
+
+```nix
+{pkgs, lib, ...} :
+{
+  service.readme = {
+    enable = true;
+    config.welcomeMsg = "Nix has a steeper learning curve than it seems…";
+  };
+}
+```
 </details>
 
-## Nowadays
-**My 'projects' :**
+<details>
+	<summary><i><b>Projects</b></i></summary>
+I've only got a few real projects apart from experimenting languages and learning things. The most significant for now was my attempt at building a proper website… which… only got so far. I later went and restarted the project on a better base in go and it's still undergoing development.<br>
+	
+Alongside my website I ofc needed a little home-server setup so I did make one using NixOS which was really interesting! <br> 
 
-- ⚙️ Low level [programing in C](<https://www.github.com/kcraft059/c-lang-playground>)
-- 🌐 An unfinished [website](<https://ftnetwork.duckdns.org/>)
--	🛠️ A sketchybar [config](<https://www.github.com/kcraft059/sketchybar-config>)
--	📋 A declarative Nix [config](<https://www.github.com/kcraft059/Nix-Config/>)
-- 🇬🇧 Help in the translation of [BetterDisplay](<https://www.github.com/waydabber/betterdisplay>)
+Hopefully my next big project (it's relative) is to make a little TUI (ascii-style graphics) multiplayer game named Amaze where I want to implement a simplistic 3d engine by myself ^^!
+</details>
 
-## TL;DR :
+# TL;DR:
 
-_A silly kid trying to learn IT by themselves, coding on feelings & doing things in the most complicated way possible.
-You might just wanna see ppl more talented than me… ^^'_
+__To make it quick here's a recap:__
+```yaml
+# Yk what, a yaml will do the job better than me
+Name: Camille / Oxeylie
+Pronouns: they/them # TODO: debug genderd.service
+Age: 17
+Spoken languages: en / fr
+Languages:
+ - c
+ - go
+ - asm (on avr)
+
+```
+
+> To anyone who reached this far, I wish you the best! And I would also give a special thanks to the open-source community and to a lot of people who are much more talented than me who led me into being able to do so much !  
+> \- _Oxeylie_
 
 > [!NOTE]
-> If you want to contact me you can do it over Discord[^2], and expect an answer within 24h ^^!
-
-## Hardware / OSes
-
-**Oses that I use :**
-- [x] MacOS [Main] - managed through Nix-Darwin
-- [x] NixOS - For my server
-- [x] Windows - only when i'm forced to…
-- [ ] Ubuntu - I don't really use it anymore
-- [ ] Asahi Linux - _(I hope a release for M3 macs comes out !)_
-
-**My hardware :**
-- Laptop : [Arm64] `Macbook Air M3 (2024)`
-- Server : [x86] `Mac Mini Late 2012` x2
-- _And a lot more junk that doesn't need to be displayed here 😅…_
+> If you want to contact me you can do it over Discord[^1], and expect an answer within 24
 
 ---
-
 
 ```
 	   .-'~~~-.
@@ -143,5 +142,4 @@ _ \\;_\\//___\|/_ __  _    _
 ```
 _“As the reality slowly decays… „_
 
-[^1]: Tho a little `csrutil disable; csrutil authenticated-root disable` makes it surrender easily 🥰
-[^2]: Id: @kcraft059, message requests opened.
+[^1]: Id: @kcraft059, message requests opened.
