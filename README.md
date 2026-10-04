@@ -127,7 +127,7 @@ OSes:
 > \- _Oxeylie_
 
 > [!NOTE]
-> If you want to contact me you can do it over Discord[^1], and expect an answer within 24
+> If you want to contact me you can do it over Discord[^1], and expect an answer within 24h
 
 ---
 
