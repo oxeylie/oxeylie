@@ -29,7 +29,7 @@ Languages: # I don't master any of those
 ```
 > Yeah… on the moment I thought this would look good… Yeah strange profile for a strange person…
 
-Anyway, I'm Camille, I also go by `Kcraft⁰⁵⁹` online, I'm a french high-school student who codes in their free time. My english isn't perfect 😅, but I love practicing it as much as I love talking to people.<br>
+Anyway, I'm Camille, I also go by `Oxeylie` (formerly `Kcraft059`) online, I'm a french high-school student who codes in their free time. My english isn't perfect 😅, but I love practicing it as much as I love talking to people.<br>
 I’m interested in pretty much every tech domain, though lately I started to specifically dive into <b>low-level programming</b>. I use macOS (because it's UNIX-like - tho let's be honest it's extremely restrictive[^1]) in combination with Nix-Darwin to fully configure my system in a reproducible way.
 
 ## My Journey
