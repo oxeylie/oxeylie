@@ -27,9 +27,9 @@ While I don't claim to have anywhere near the knowledge of a real dev, during th
 <details>
 <summary><i><b>Experience</b></i></summary><br>
 	
-The only real experience I've had was really only through my own research, but  were quite varied.<br>
+The only real experience I've had was really only through my own research, but they were quite varied.<br>
 	
-My first introduction to programming was really only a few bash scripts… but I quickly got the idea to learn a <i>real</I> language. So I decided to try and learn some python… at the beginning I did understand the language in itself… but had no idea how it really worked under the hood… But that didn't bother me at the time as I just got into programming ^^.<br>
+My first introduction to programming was really only a few bash scripts… but I quickly got the idea to learn a <i>real</i> language. So I decided to try and learn some python… at the beginning I did understand the language in itself… but had no idea how it really worked under the hood… But that didn't bother me at the time as I just got into programming ^^.<br>
 	
 Later the idea of making a website got me… my goal at first was to make it pretty… but I quickly understood that it wasn't really what motivated me. I wanted to some real programming, I wanted to try and do a bit of backend. I went as far as doing a somewhat functional user/group/policy object-oriented system with a database and all but… at some point I lost interest for the backend so it really only ended in: <br>
 	
@@ -48,7 +48,7 @@ The real reason for the loss of interest is because I started to wonder if I cou
 #include <stdlib.h>
 
 int main(int argc, char** argv) { // And this time I actually started to comment my code 
-  char* string = malloc(sizeof(char) * 5); // Alloc mem on heap for string
+  char* string = malloc(sizeof(char) * 5); // Alloc mem on heap for string, and yeah I didn't do proper checks for NULL at the time
   memcpy(string,"Yeah", sizeof(char) * 5); // Copy mem from address of immediate "Yeah" to string, on 5 bytes
   printf("%s, after php, c did taste harder ^^'\n",string); // Print to stdout replacing %s which the string in string
   free(string); // Free mem
@@ -74,8 +74,8 @@ init:
 end:
 	rjmp end                     ; End loop, halt execution
 led_on:
-	sbi _SFR_IO_ADDR(DDRB), DDB5 ; Set bit for port 5 in data direction reg
-	sbi _SFR_IO_ADDR(PORTB), PB5 ; Set bit for port 5 in port register
+	sbi _SFR_IO_ADDR(DDRB), DDB5 ; Set bit for pin 5 port B in data direction reg
+	sbi _SFR_IO_ADDR(PORTB), PB5 ; Set bit for pin 5 port B in port register
 	ret                          ; Set instruction pointer to the address on stack from which subroutine has been called 
 ```
 And that's pretty much all I got for now
