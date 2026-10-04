@@ -61,22 +61,22 @@ As usual I wanted to try and re-implement as best as I could some basic systems 
 
 ```asm
 #include <avr/io.h>
-.section .vectors             ; Interrupt vector table
+.section .vectors              ; Interrupt vector table
 .org 0x0000
-	jmp init                    ; On reset jump to init
+	jmp init                     ; On reset jump to init
 .section .text
 init:
-	ldi r16, lo8(RAMEND)        ; Init Stack pointer
+	ldi r16, lo8(RAMEND)         ; Init Stack pointer
 	out _SFR_IO_ADDR(SPL), r16
 	ldi r16, hi8(RAMEND)
 	out _SFR_IO_ADDR(SPH), r16
-	rcall led_on                ; Call led_on subroutine
+	rcall led_on                 ; Call led_on subroutine
 end:
-	rjmp end                    ; End loop, prevent UB
+	rjmp end                     ; End loop, halt execution
 led_on:
-	sbi _SFR_IO_ADDR(DDRB), DDB5; Set bit for port 5 in data direction reg
-	sbi _SFR_IO_ADDR(DDRB), PB5 ; Set bit for port 5 in port register
-	ret                         ; Set instruction pointer to the address on stack from which subroutine has been called 
+	sbi _SFR_IO_ADDR(DDRB), DDB5 ; Set bit for port 5 in data direction reg
+	sbi _SFR_IO_ADDR(PORTB), PB5 ; Set bit for port 5 in port register
+	ret                          ; Set instruction pointer to the address on stack from which subroutine has been called 
 ```
 And that's pretty much all I got for now
 
