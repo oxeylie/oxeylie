@@ -88,7 +88,7 @@ This convenience had a cost tho since…
 ```nix
 {pkgs, lib, ...} :
 {
-  service.readme = {
+  services.readme = {
     enable = true;
     config.welcomeMsg = "Nix has a steeper learning curve than it seems…";
   };
