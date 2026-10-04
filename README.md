@@ -1,6 +1,6 @@
 <div align="center">	
 <img width="3839" height="1200" alt="Cherry_Blossom copy" src="https://github.com/user-attachments/assets/8c1e3fdd-ea4b-4964-b88c-32568e1f83dd" />
-<h1>Hi, I'm Oxeylie 🌸 <I>(fka Kcraft⁰⁵⁹)</i></h1>
+<h1>Hi, I'm Oxeylie 🌸 <i>(fka Kcraft⁰⁵⁹)</i></h1>
 
 </div>
 
@@ -27,7 +27,7 @@ While I don't claim to have anywhere near the knowledge of a real dev, during th
 <details>
 <summary><i><b>Experience</b></i></summary><br>
 	
-The only real experience I've had was really only through my own researches, but  were quite varied.<br>
+The only real experience I've had was really only through my own research, but  were quite varied.<br>
 	
 My first introduction to programming was really only a few bash scripts… but I quickly got the idea to learn a <i>real</I> language. So I decided to try and learn some python… at the beginning I did understand the language in itself… but had no idea how it really worked under the hood… But that didn't bother me at the time as I just got into programming ^^.<br>
 	
@@ -49,7 +49,7 @@ The real reason for the loss of interest is because I started to wonder if I cou
 
 int main(int argc, char** argv) { // And this time I actually started to comment my code 
   char* string = malloc(sizeof(char) * 5); // Alloc mem on heap for string
-  memcpy(string,"Yeah", sizeof(char) * 5); // Copy mem from adress of immediate "Yeah" to string, on 5 bytes
+  memcpy(string,"Yeah", sizeof(char) * 5); // Copy mem from address of immediate "Yeah" to string, on 5 bytes
   printf("%s, after php, c did taste harder ^^'\n",string); // Print to stdout replacing %s which the string in string
   free(string); // Free mem
 }
@@ -74,8 +74,8 @@ init:
 end:
 	rjmp end                    ; End loop, prevent UB
 led_on:
-	sbi _SFR_IO_ADDR(DDRB), DDB5; Set bit 5 in data direction reg
-	sbi _SFR_IO_ADDR(DDRB), PB5 ; Set bit 5 in port register
+	sbi _SFR_IO_ADDR(DDRB), DDB5; Set bit for port 5 in data direction reg
+	sbi _SFR_IO_ADDR(DDRB), PB5 ; Set bit for port 5 in port register
 	ret                         ; Set instruction pointer to the address on stack from which subroutine has been called 
 ```
 And that's pretty much all I got for now
