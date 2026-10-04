@@ -144,4 +144,4 @@ _ \\;_\\//___\|/_ __  _    _
 ```
 _“As the reality slowly decays… „_
 
-[^1]: Id: @kcraft059, message requests opened.
+[^1]: Id: @oxeylie, message requests opened.
