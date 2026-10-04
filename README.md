@@ -4,14 +4,13 @@
 
 </div>
 
-First, I wanted to thank you for taking the time to look a bit at my profile, I'm sure it's quite uncommon ^^'…
-
-# Bio:
-If anything at all I'm just a curious person who loves computers and science stuff ^^!
+I don't really know how to begin this... 
+To be honest, if anything at all I'm just a curious person who loves computers and science stuff ^^!
 I'd rather be called using `they/them` but it's not a big deal if you're using smth else.  
 I'm currently studying with the goal of maybe becoming an engineer (if lucky enough), so I'm quite busy most of the time.  
 Not absolutely opposed to the use of AI, tho only for ethical purpose it is to say, I **don't** vibe code.
 
+# Bio:
 <details>
 <summary><i><b>Interests</b></i></summary><br>
 	
