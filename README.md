@@ -2,6 +2,10 @@
 <img width="3839" height="1200" alt="Cherry Blossom Branch" src="https://github.com/user-attachments/assets/8c1e3fdd-ea4b-4964-b88c-32568e1f83dd" />
 <h1>Hi, I'm Oxeylie 🌸 <i>(fka Kcraft⁰⁵⁹)</i></h1>
 
+![Static Badge](https://img.shields.io/badge/C-633345?style=flat-square&logo=C)
+![Static Badge](https://img.shields.io/badge/Go-a65c78?style=flat-square&logo=Go)
+![Static Badge](https://img.shields.io/badge/Nix-eb7091?style=flat-square&logo=Nixos)
+
 </div>
 
 I don't really know how to begin this... 
