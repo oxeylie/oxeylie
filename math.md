@@ -158,6 +158,7 @@ We can therefore find the value of $t$ the parameter of $\vec{R}$ using per-plan
 
 We want to know the coordinates of the intersection point $\vec{I} = \vec{E} + t\vec{v} $ on $P$. Therefore we can express $\vec{q} = \vec{I} - \vec{P_o}$ wich ensures that $\vec{q} \subset P$. We can then express $\vec{q}$ since it is on the plane:
 ```math
+\begin{gather*}
 \vec{q} = m\vec{u} + m'\vec{w} 
 \\
 \iff \begin{cases}
@@ -178,6 +179,7 @@ We want to know the coordinates of the intersection point $\vec{I} = \vec{E} + t
 \vec{u} \cdot \vec{q} \\
 \vec{w} \cdot \vec{q}
 \end{bmatrix}
+\end{gather*}
 ```
 
 We therefore need to solve the latest to find $m$ and $m'$ coordinates of $I$ on $P$. We can use cramer's for that:
