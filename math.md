@@ -31,7 +31,7 @@ x \\ y \\ z
 ```
 
 For the reverse operation, we need to solve the latest by inverting the vector base coordinate matrix.\
-_(Check if in orthonormal base $M^{-1} = M^T$)_
+(Check if in orthonormal base $M^{-1} = M^T$)
 
 For a point $H(x;y;z)$ we can convert it to a vector $\vec{v}$ and do the same operation with the addition of the vector representative of the origin point $\vec{O}$ expressed in the new base (with $\vec{i'},\vec{j'},\vec{k'}$):
 ```math
@@ -145,7 +145,7 @@ c = \vec{n} \cdot \vec{P_o} =
 \end{gather*}
 ```
 
-_(Note that here we use $\vec{X}$ to represent the vector associated to the point coordinates so that $\vec{X} = \begin{bmatrix} X_x & X_y & X_z \end{bmatrix}^T$)_\
+(Note that here we use $\vec{X}$ to represent the vector associated to the point coordinates so that $\vec{X} = \begin{bmatrix} X_x & X_y & X_z \end{bmatrix}^T$)\
 So we want to solve for $t$ in our ray $R$:
 
 ```math
@@ -173,7 +173,7 @@ We can therefore find the value of $t$ the parameter of $\vec{R}$ using per-plan
 
 ### Computation of $m$ and $m'$
 
-We want to know the coordinates of the intersection point $\vec{I} = \vec{E} + t\vec{v} $ on $P$. Therefore we can express $\vec{q} = \vec{I} - \vec{P_o}$ wich ensures that $\vec{q} \subset P$. We can then express $\vec{q}$ since it is on the plane:
+We want to know the coordinates of the intersection point $\vec{I} = \vec{E} + t\vec{v}$ on $P$. Therefore we can express $\vec{q} = \vec{I} - \vec{P_o}$ wich ensures that $\vec{q} \subset P$. We can then express $\vec{q}$ since it is on the plane:
 ```math
 \begin{gather*}
 \vec{q} = m\vec{u} + m'\vec{w} 
@@ -223,7 +223,7 @@ m' = \frac{\det(A_1)}{\det(A)}
 = \vec{q} \cdot \vec{w^*}, \; \vec{w^*} = \frac{\vec{w} \vec{u}^2 - \vec{u}(\vec{w} \cdot \vec{u})}{\det(A)}
 \end{gather*}
 ``` 
-_(This assumes $\det(A) ≠ 0$ therefore that the plane's $\vec{u}$ and $\vec{w}$ direction vectors are not parallel and that none is equal to the null vector)_\
+(This assumes $\det(A) ≠ 0$ therefore that the plane's $\vec{u}$ and $\vec{w}$ direction vectors are not parallel and that none is equal to the null vector)\
 We can then compute $\det(A), \vec{u^*}$ and $\vec{w^*}$ on a per-plane basis, and find coordinates $I(m;m')$ on an per-intersection basis.
 
 ### Computation of hit angle cosine (light)
