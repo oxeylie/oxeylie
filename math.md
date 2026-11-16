@@ -145,7 +145,7 @@ c = \vec{n} \cdot \vec{P_o} =
 \end{gather*}
 ```
 
-(Note that here we use $\vec{X}$ to represent the vector associated to the point coordinates so that $\vec{X} = \begin{bmatrix} X_x & X_y & X_z \end{bmatrix}^T$)\
+(Note that here we use $\vec{X}$ to represent the vector associated to the point coordinates so that $`\vec{X} = \begin{bmatrix} X_x & X_y & X_z \end{bmatrix}^T`$)\
 So we want to solve for $t$ in our ray $R$:
 
 ```math
