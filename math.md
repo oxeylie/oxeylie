@@ -224,7 +224,7 @@ m' = \frac{\det(A_1)}{\det(A)}
 \end{gather*}
 ``` 
 (This assumes $\det(A) ≠ 0$ therefore that the plane's $\vec{u}$ and $\vec{w}$ direction vectors are not parallel and that none is equal to the null vector)\
-We can then compute $\det(A), \vec{u^*}$ and $\vec{w^*}$ on a per-plane basis, and find coordinates $I(m;m')$ on an per-intersection basis.
+We can then compute $`\det(A), \vec{u^*}`$ and $`\vec{w^*}`$ on a per-plane basis, and find coordinates $I(m;m')$ on an per-intersection basis.
 
 ### Computation of hit angle cosine (light)
 
