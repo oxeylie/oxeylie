@@ -173,7 +173,7 @@ We can therefore find the value of $t$ the parameter of $\vec{R}$ using per-plan
 
 ### Computation of $m$ and $m'$
 
-We want to know the coordinates of the intersection point $\vec{I} = \vec{E} + t\vec{v}$ on $P$. Therefore we can express $\vec{q} = \vec{I} - \vec{P_o}$ wich ensures that $\vec{q} \subset P$. We can then express $\vec{q}$ since it is on the plane:
+We want to know the coordinates of the intersection point $`\vec{I} = \vec{E} + t\vec{v}`$ on $P$. Therefore we can express $\vec{q} = \vec{I} - \vec{P_o}$ wich ensures that $\vec{q} \subset P$. We can then express $\vec{q}$ since it is on the plane:
 ```math
 \begin{gather*}
 \vec{q} = m\vec{u} + m'\vec{w} 
