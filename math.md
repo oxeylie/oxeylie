@@ -212,7 +212,7 @@ B = \begin{bmatrix}
 \vec{w} \cdot \vec{q}
 \end{bmatrix}\!,
 \\[6pt]
-\det(A) = \vec{w}^2 \vec{u}^2 - (\vec{u} \cdot \vec{w})^2 = \vec{w}^2 \vec{u}^2 - \vec{u}^2 \vec{w}^2 \cos(\widehat{\vec{u}\vec{w}})^2 = \vec{w}^2 \vec{u}^2 (1 - \sin(\widehat{\vec{u}\vec{w}})^2) = \vec{w}^2 \vec{u}^2 sin(\widehat{\vec{u}\vec{w}})^2 = \lVert\vec{n}\rVert^2
+\det(A) = \vec{w}^2 \vec{u}^2 - (\vec{u} \cdot \vec{w})^2 = \vec{w}^2 \vec{u}^2 - \vec{u}^2 \vec{w}^2 \cos(\widehat{\vec{u}\vec{w}})^2 = \vec{w}^2 \vec{u}^2 (1 - \cos(\widehat{\vec{u}\vec{w}})^2) = \vec{w}^2 \vec{u}^2 sin(\widehat{\vec{u}\vec{w}})^2 = \lVert\vec{n}\rVert^2
 \\[6pt] 
 m = \frac{\det(A_0)}{\det(A)} 
 = \frac{(\vec{u} \cdot \vec{q})\vec{w}^2 - (\vec{w} \cdot \vec{q})(\vec{u} \cdot \vec{w})}{\det(A)} 
