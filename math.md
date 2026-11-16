@@ -9,7 +9,7 @@ The eye referencial takes $\vec{i'}$ and $\vec{j'}$ as the coordinates axis for 
 
 ### Chaging referencial
 
-To change a vector $\vec{v} = \begin{bmatrix} x & y & z \end{bmatrix}^T$ from basis $O,\vec{i},\vec{j},\vec{k}$ to basis $O',\vec{i'},\vec{j'},\vec{k'}$ with $\vec{i},\vec{j}$ and $\vec{k}$ already expressed with $\vec{i'},\vec{j'},\vec{k'}$ we can establish:
+To change a vector $`\vec{v} = \begin{bmatrix} x & y & z \end{bmatrix}^T`$ from basis $O,\vec{i},\vec{j},\vec{k}$ to basis $O',\vec{i'},\vec{j'},\vec{k'}$ with $\vec{i},\vec{j}$ and $\vec{k}$ already expressed with $\vec{i'},\vec{j'},\vec{k'}$ we can establish:
 
 ```math
 \begin{gather*}
